@@ -1,7 +1,46 @@
 @import "_variables";
 
+
 /*@import '../../node_modules/font-awesome/scss/font-awesome';*/
-/*@import '../../node_modules/materialize-css/sass/materialize';*/
+
+// @import '../../node_modules/materialize-css/sass/materialize';
 
 /* App imports */
+
 @import "_basic";
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.header {
+    background-color: #34495E;
+    height: 18%;
+
+}
+
+.header>div {
+
+    display: inline-block;
+    float: left;
+    color: #FFFFFF;
+    margin-top: 1%;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+    flex-wrap: wrap;
+    margin-left: 4%;
+
+}
+
+img {
+    width: 4%;
+    float: left;
+    margin-left: 1%;
+    cursor: pointer;
+}
