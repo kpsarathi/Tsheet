@@ -20,7 +20,6 @@
 
 .header {
     background-color: #34495E;
-    height: 18%;
 
 }
 
@@ -38,9 +37,21 @@
 
 }
 
-img {
+#image {
     width: 4%;
     float: left;
     margin-left: 1%;
     cursor: pointer;
+}
+.setting{
+margin-top: 0% !important;
+float: right !important;
+margin-right: 1%;
+
+}
+.setting > img {
+	color:#FFFFFF;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 15%;
 }
